@@ -1,3 +1,75 @@
-* {
-    background-color: teal;
+body {
+    margin: 0;
+    background-color: white;
+    font-family: "Karla", serif;
+}
+#main-block-div {
+    background-color: #1F2937;
+    width: 550px;
+    height: 550px;
+    margin: 64px 62px;
+    padding-left: 52px;
+    padding-top: 115px;
+}
+
+h1 {
+    color: white;
+    width: 400px;
+    font-size: 40px;
+    font-weight: 800;
+    font-style: normal;
+    margin-bottom: 10px;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+span {
+    color: #4ADF86;
+}
+
+p {
+    width: 372px;
+    color: #D5D4D8;
+    font-size: 20px;
+
+    margin: 10px 0;
+    letter-spacing: -0.05px;
+}
+
+button {
+    width: 191px;
+    height: 42px;
+    color: white;
+    background-color: #10B981;
+    padding: 9px 17px 9px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    margin: 55px 0 25px 0;
+}
+
+hr {
+    width: 446px;
+    border:0;
+    border-top: 2px solid #2F3E53;
+    margin-left: 0;
+}
+
+.pwd-holder-div {
+    display: flex;
+    margin: 25px 0 0 0;
+    gap:20px;
+}
+
+.passHolder {
+    text-align: center;
+    color: #4ADF86;
+    background-color: #273549;
+    min-width: 200px;
+    width: auto;
+    height: 39px;
+    border-radius: 6px;
+    font-size: 15px;
+    padding: 10px 20px;
+    box-sizing: border-box;
 }
