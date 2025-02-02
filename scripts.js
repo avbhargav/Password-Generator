@@ -106,5 +106,4 @@ function passwordGenerator() {
     passEl1.textContent = password1;
     passEl2.textContent = password2;
   }
-  return password;
 }
